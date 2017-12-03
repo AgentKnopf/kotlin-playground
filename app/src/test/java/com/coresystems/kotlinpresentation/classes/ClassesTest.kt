@@ -21,7 +21,7 @@ class ClassesTest {
         //If default values are specified for constructor parameters, you can omit those in your call
         Person("Till")
         //We can specify parameters by name and pass them in a different order
-        val fruit = Fruit(yearOfHarvest = 2019, name = "Lily")
+        val fruit = Vegetable(yearOfHarvest = 2019, name = "Lily")
         //We can use Kluent for fluent assertions (works via infix operator)
         //This is the same using assertEquals, but in a more natural way (human language wise)
         fruit.name shouldEqual "Lily"

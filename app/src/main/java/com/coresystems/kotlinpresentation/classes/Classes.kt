@@ -30,7 +30,7 @@ class Produce(name: String)
  * Primary constructors do not contain any code! Use an init block for those cases.
  * Constructor parameters are just that - parameters, they're only accessible during initialization.
  */
-class Fruit(name: String, yearOfHarvest: Int = 2018) {
+class Vegetable(name: String, yearOfHarvest: Int = 2018) {
     /**
      * Kotlin supports operator overloading: https://kotlinlang.org/docs/reference/operator-overloading.html
      * and custom infix operations
